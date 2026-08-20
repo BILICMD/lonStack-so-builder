@@ -63,7 +63,7 @@ jobs:
     
     - name: 构建preload.so
       run: |
-        make preload API=35 VERBOSE=1
+        make preload API=30 VERBOSE=1
     
     - name: 上传附件
       uses: actions/upload-artifact@v7
